@@ -10,12 +10,21 @@
   justify-items: center;
 }
 
-#about h1 {
+#title-about {
   grid-column: 2/4;
   grid-row: 2/4;
+}
+
+#title-about h1 {
+  font-weight: 300;
+}
+
+#title-about h2 {
+  font-weight: 800;
 }
 
 #about p {
   grid-column: 3/4;
   grid-row: 1/-1;
+  padding: 50px 0 0;
 }

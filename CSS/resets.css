@@ -8,7 +8,7 @@ html,body,main,header,footer,section,aside,div,nav,a,h1,h2,h3,p,span,figure,butt
 
 a {
   text-decoration: none;
-  color: var(--text-black);
+  color: var(--text-paragraph);
 }
 
 button {
