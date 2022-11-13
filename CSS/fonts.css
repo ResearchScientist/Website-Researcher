@@ -1,0 +1,12 @@
+:root {
+  --mainFont: 'Playfair Display', serif;
+}
+
+h1,h2,p,a {
+  font-family: var(--mainFont);
+}
+
+p {
+  font-size: 21px;
+  line-height: 1.6;
+}
