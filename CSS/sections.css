@@ -6,7 +6,7 @@
   display: grid;
   /* grid-template-columns: 1fr repeat(3,33%) 1fr; */
   grid-template-columns: 1fr repeat(3,minmax(33%,450px)) 1fr;
-  /* grid-template-rows: 1fr repeat(3,33%) 1fr; */
+  grid-template-rows: 1fr repeat(3,33%) 1fr;
   align-items: center;
   justify-items: center;
 }
