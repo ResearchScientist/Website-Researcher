@@ -6,14 +6,13 @@
   display: grid;
   /* grid-template-columns: 1fr repeat(3,33%) 1fr; */
   grid-template-columns: 1fr repeat(3,minmax(33%,450px)) 1fr;
-  /* grid-template-columns: 1fr repeat(3,450px) 1fr; */
   grid-template-rows: 1fr repeat(3,33%) 1fr;
   align-items: center;
   justify-items: center;
 }
 
 #title-about {
-  width: 260px;
+  width: 262px;
   grid-column: 2/3;
   grid-row: 2/4;
   justify-self: flex-end;
