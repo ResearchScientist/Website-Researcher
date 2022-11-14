@@ -21,8 +21,10 @@ button {
 
 html,main {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   height: auto;
+  overflow-x: hidden;
 }
