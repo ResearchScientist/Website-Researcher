@@ -46,6 +46,10 @@
   color: var(--text-light);
 }
 
+#research p {
+  width: 535px;
+}
+
 #research #background {
   grid-column: 3/5;
   grid-row: 2/3;
@@ -55,8 +59,36 @@
   justify-content: space-between;
 }
 
-#research p {
+#research #publication {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#research #interests {
+  grid-column: 3/5;
+  grid-row: 4/5;
+  width: 800px;
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+
+#research #interests div {
   width: 535px;
+}
+
+#research #interests div div {
+  margin: 0 0 5px;
+}
+
+#research #interests div p {
+  padding: 1px 2px;
+  display: inline;
+  font-size: 14px;
+  background-color: var(--text-veryLight);
 }
 
 /* CONTACT */
