@@ -24,7 +24,10 @@
 }
 
 #about p {
-  grid-column: 3/4;
+  min-width: 320px;
+  max-width: 620px;
+  grid-column: 2/-2;
   grid-row: 1/-1;
   padding: 50px 0 0;
+  /* background-color: gray; */
 }
