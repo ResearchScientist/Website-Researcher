@@ -1,6 +1,6 @@
 /* ABOUT */
 
-#about , #research , #contact{
+#about , #research , #contact {
   height: 100vh;
   width: 100vw;
   display: grid;
@@ -50,44 +50,32 @@
   width: 535px;
 }
 
-#research #background {
+#research #research-section {
   grid-column: 1/-1;
-  grid-row: 2/3;
+  grid-row: 1/-1;
   width: 800px;
-  align-self: flex-end;
+  height: 60%;
+  margin: 70px 0 0;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-#research #publication {
-  grid-column: 1/-1;
-  grid-row: 3/4;
-  width: 800px;
-  display: flex;
-  justify-content: space-between;
-}
-
-#research #interests {
-  grid-column: 1/-1;
-  grid-row: 4/5;
-  width: 800px;
-  align-self: flex-start;
+#research #background , #research #publication , #research #interests {
   display: flex;
   justify-content: space-between;
 }
 
 #research #interests div {
   width: 535px;
-}
-
-#research #interests div div:nth-of-type(1) {
-  padding: 5px 0 0;
-  margin: 0 0 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #research #interests div p {
+  width: fit-content;
   padding: 2px;
-  display: inline;
+  margin: 0 5px 5px 0;
   font-size: 14px;
   background-color: var(--text-veryLight);
 }

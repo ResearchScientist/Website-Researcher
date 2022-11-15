@@ -15,18 +15,18 @@
 }
 
 @media screen and (max-width: 535px) {
-  #research h1 {width: 95vw; grid-column: 1/-1;}
+  #research h1 {width: 95vw; grid-column: 1/-1; margin: -10% 0 0;}
   #research p {width: 95vw;}
-  #research #background {width: 95vw; flex-direction: column; grid-row: 2/4; align-self: center;}
-  #research #publication {width: 95vw; flex-direction: column; align-self: flex-end;}
-  #research #interests {width: 95vw; flex-direction: column; align-self: center;}
+  #research #research-section {width: 95vw; height: 75%;}
+  #research #background , #research #publication , #research #interests {width: 95vw; flex-direction: column; align-self: center;}
+  #research #interests div {margin: 5px 0 0; width: 95vw;}
 }
 
 @media screen and (min-width: 536px) and (max-width: 800px) {
   #research h1 {width: 535px; grid-column: 1/-1;}
-  #research #background {width: 535px; flex-direction: column; grid-row: 2/4; align-self: center;}
-  #research #publication {width: 535px; flex-direction: column; align-self: flex-end;}
-  #research #interests {width: 535px; flex-direction: column; align-self: center;}
+  #research #research-section {width: 535px;}
+  #research #background , #research #publication , #research #interests {width: 535px; flex-direction: column; align-self: center;}
+  #research #interests div {margin: 5px 0 0;}
 }
 
 @media screen and (min-width: 801px) and (max-width: 1020px) {
