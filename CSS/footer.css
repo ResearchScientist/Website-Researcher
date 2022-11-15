@@ -13,7 +13,7 @@ footer div {
   justify-content: space-between;
 }
 
-footer div p {
+footer div a {
   font-size: 14px;
   color: var(--text-veryLight);
 }
