@@ -13,3 +13,22 @@
 @media screen and (min-width: 630px) and (max-width: 780px) {
   #title-about {width: 620px; grid-column: 2/-2; justify-self: center;}
 }
+
+@media screen and (max-width: 535px) {
+  #research h1 {width: 95vw; grid-column: 1/-1;}
+  #research p {width: 95vw;}
+  #research #background {width: 95vw; flex-direction: column; grid-row: 2/4; align-self: center;}
+  #research #publication {width: 95vw; flex-direction: column; align-self: flex-end;}
+  #research #interests {width: 95vw; flex-direction: column; align-self: center;}
+}
+
+@media screen and (min-width: 536px) and (max-width: 800px) {
+  #research h1 {width: 535px; grid-column: 1/-1;}
+  #research #background {width: 535px; flex-direction: column; grid-row: 2/4; align-self: center;}
+  #research #publication {width: 535px; flex-direction: column; align-self: flex-end;}
+  #research #interests {width: 535px; flex-direction: column; align-self: center;}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1020px) {
+  #research h1 {width: 800px; grid-column: 1/-1;}
+}

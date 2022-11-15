@@ -51,7 +51,7 @@
 }
 
 #research #background {
-  grid-column: 3/5;
+  grid-column: 1/-1;
   grid-row: 2/3;
   width: 800px;
   align-self: flex-end;
@@ -60,7 +60,7 @@
 }
 
 #research #publication {
-  grid-column: 3/5;
+  grid-column: 1/-1;
   grid-row: 3/4;
   width: 800px;
   display: flex;
@@ -68,7 +68,7 @@
 }
 
 #research #interests {
-  grid-column: 3/5;
+  grid-column: 1/-1;
   grid-row: 4/5;
   width: 800px;
   align-self: flex-start;
