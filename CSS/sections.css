@@ -81,11 +81,11 @@
 }
 
 #research #interests div div {
-  margin: 0 0 5px;
+  margin: 0 0 2px;
 }
 
 #research #interests div p {
-  padding: 1px 2px;
+  padding: 2px;
   display: inline;
   font-size: 14px;
   background-color: var(--text-veryLight);
@@ -99,4 +99,9 @@
   grid-row: 2/4;
   justify-self: flex-end;
   font-weight: 300;
+}
+
+#contact p {
+  grid-column: 2/-2;
+  grid-row: 2/-2;
 }
