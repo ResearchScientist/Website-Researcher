@@ -1,0 +1,19 @@
+footer {
+  width: 100vw;
+  height: 30vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--text-H2);
+}
+
+footer div {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div p {
+  font-size: 14px;
+  color: var(--text-veryLight);
+}
