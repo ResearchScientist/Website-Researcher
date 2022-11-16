@@ -82,8 +82,11 @@
 
 /* CONTACT */
 
+#contact {
+  height: calc(100vh - 90px);
+}
+
 #contact h1 {
-  width: 250px;
   grid-column: 2/3;
   grid-row: 2/4;
   font-weight: 300;
