@@ -4,6 +4,7 @@
 
 h1,h2,p,a {
   font-family: var(--mainFont);
+  font-weight: 400;
 }
 
 p {
