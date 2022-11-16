@@ -19,11 +19,11 @@
 
 #title-about h1 {
   font-weight: 400;
-  color: var(--text-H1-light);
 }
 
 #title-about h2 {
   font-weight: 800;
+  color: var(--text-light);
 }
 
 #about p {
@@ -38,7 +38,7 @@
 #research h1 {
   grid-column: 2/3;
   grid-row: 2/3;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #research h2 {
