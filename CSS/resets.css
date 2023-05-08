@@ -19,12 +19,21 @@ button {
   cursor: pointer;
 }
 
-html,main {
+/* html,main {
   height: 100%;
+  scroll-behavior: smooth;
+} */
+
+/* body {
+  height: auto;
+  overflow-x: hidden;
+} */
+
+html {
+  height: 100vh;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
-body {
-  height: auto;
-  overflow-x: hidden;
-}
+* {outline: solid 1px red;}
