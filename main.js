@@ -8,6 +8,8 @@ window.onblur = function() {
 
 var docWidth = document.documentElement.offsetWidth;
 
+// FOR TESTING ELEMENT OVERFLOW
+
 [].forEach.call(
   document.querySelectorAll('*'),
   function(el) {
