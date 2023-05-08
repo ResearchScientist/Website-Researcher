@@ -23,13 +23,13 @@
   #research #interests div {margin: 5px 0 0; width: 95vw;}
 }
 
-@media screen and (min-width: 536px) and (max-width: 809px) {
+@media screen and (min-width: 536px) and (max-width: 819px) {
   #research h1 , #contact h1 {width: 535px; grid-column: 1/-1;}
   #research #research-section {width: 535px;}
   #research #background , #research #publication , #research #interests {width: 535px; flex-direction: column; align-self: center;}
   #research #interests div {margin: 5px 0 0;}
 }
 
-@media screen and (min-width: 810px) and (max-width: 1020px) {
+@media screen and (min-width: 820px) and (max-width: 1020px) {
   #research h1 , #contact h1 {width: 800px; grid-column: 1/-1;}
 }
